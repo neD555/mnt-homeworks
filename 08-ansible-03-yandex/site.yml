@@ -1,0 +1,7 @@
+# site.yml
+---
+- name: Install Lighthouse
+  hosts: lighthouse
+  become: true
+  roles:
+    - lighthouse
